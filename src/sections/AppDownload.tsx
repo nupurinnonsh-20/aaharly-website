@@ -7,7 +7,7 @@ const AppDownload: React.FC = () => {
             <h2 className={styles.title}>Eat right. Stay consistent.</h2>
             <div className={styles.container}>
                 <div className={styles.imageWrapper}>
-                    <img src="/images/mobile.svg" alt="Aaharly App on Phone" className={styles.phoneImage} />
+                    <img src="/images/mobile.svg?v=3" alt="Aaharly App on Phone" className={styles.phoneImage} />
                 </div>
                 <div className={styles.content}>
                     <div className={styles.bottomRow}>

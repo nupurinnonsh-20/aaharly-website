@@ -18,8 +18,8 @@ const WhatWeDo: React.FC = () => {
     ];
 
     return (
-        <section className={`section-padding ${styles.section}`}>
-            <div className="container">
+        <section className={styles.section}>
+            <div className={styles.content}>
                 <h2 className={styles.title}>What we do</h2>
                 <div className={styles.grid}>
                     {features.map((feature, index) => (
@@ -35,3 +35,4 @@ const WhatWeDo: React.FC = () => {
 };
 
 export default WhatWeDo;
+

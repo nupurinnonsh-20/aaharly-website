@@ -72,7 +72,8 @@
 }
 
 .badge {
-  height: 56px; /* In-between the previous 70px and current 48px */
+  width: 146px;
+  height: 93px;
   cursor: pointer;
   transition: opacity 0.2s;
 }

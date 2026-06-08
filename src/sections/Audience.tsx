@@ -26,19 +26,21 @@ const Audience: React.FC = () => {
     return (
         <section className={styles.section}>
             <div className={styles.containerBox}>
-                <h2 className={styles.title}>Who Aaharly is for</h2>
-                <div className={styles.grid}>
-                    {audiences.map((item, index) => (
-                        <div key={index} className={styles.card}>
-                            <div className={styles.cardHeader}>
-                                <div className={styles.iconWrapper}>
-                                    <img src={item.icon} alt={item.titleText} className={styles.icon} />
+                <div className={styles.content}>
+                    <h2 className={styles.title}>Who Aaharly is for</h2>
+                    <div className={styles.grid}>
+                        {audiences.map((item, index) => (
+                            <div key={index} className={styles.card}>
+                                <div className={styles.cardHeader}>
+                                    <div className={styles.iconWrapper}>
+                                        <img src={item.icon} alt={item.titleText} className={styles.icon} />
+                                    </div>
+                                    <h3 className={styles.cardTitle}>{item.title}</h3>
                                 </div>
-                                <h3 className={styles.cardTitle}>{item.title}</h3>
+                                <p className={styles.cardText}>{item.description}</p>
                             </div>
-                            <p className={styles.cardText}>{item.description}</p>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>

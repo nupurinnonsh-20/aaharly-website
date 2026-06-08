@@ -24,8 +24,8 @@
   min-width: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
   gap: 8px;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .socialColumn {
-  align-items: center;
+  align-items: flex-start;
 }
 
 .builtIn {
@@ -89,7 +89,7 @@
 
 .socials {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .socialIcon {

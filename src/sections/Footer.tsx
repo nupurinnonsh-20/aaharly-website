@@ -9,7 +9,6 @@ const Footer: React.FC = () => {
             <div className={styles.container}>
                 <div className={styles.brand}>
                     Aaharly
-                    <span className={styles.poweredBy}>Powered by Innonsh Technologies Pvt. Ltd</span>
                 </div>
 
                 <div className={styles.builtIn}>
